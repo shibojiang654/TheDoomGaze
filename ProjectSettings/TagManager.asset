@@ -3,12 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Lever
+  - Blocker
+  - Enemy
+  - Chest
+  - PressurePlate
+  - Box
+  - Door
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
   - 
@@ -38,6 +45,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 4142630989
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: bottom
+    uniqueID: 970987985
     locked: 0
